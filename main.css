@@ -1,0 +1,42 @@
+header {
+    padding: 20px 0;
+}
+
+header .row, 
+footer .row {
+    display: flex;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header p {
+    padding: 0 20px;
+    margin: 0;
+}
+header h1 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('./images/tea_love.png');
+    background-size: cover;
+    height: 400px;
+}
+
+.jumbotron h2 {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0.5rem 0.5rem #011111;
+}
+
+.jumbotron h3 {
+    font-size: 4rem;
+    color: #fff;
+}
