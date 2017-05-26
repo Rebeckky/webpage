@@ -40,3 +40,8 @@ header h1 {
     font-size: 4rem;
     color: #fff;
 }
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
