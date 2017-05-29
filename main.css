@@ -27,7 +27,7 @@ header h1 {
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url('./images/tea_love.png');
+    background-image: url('./images/pea_flower.png');
     background-size: cover;
     height: 400px;
 }
@@ -42,8 +42,26 @@ header h1 {
 .jumbotron h3 {
     font-size: 4rem;
     color: #fff;
+    text-shadow: 0.25rem 0.25rem #011111;
 }
 
 section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.btn.btn-primary{
+    border-radius: 2px;
+    border: 0px;
+    color: #f0ffe5;
+    background-color: #538715;
+}
+.btn.btn-primary:hover{
+    background-color: #6cad1d;
+    color: #ffffff;
+}
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
   margin: 0 0 30px;
 }
